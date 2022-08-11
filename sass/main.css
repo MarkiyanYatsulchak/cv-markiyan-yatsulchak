@@ -185,14 +185,14 @@ img {
 }
 
 .education__institution {
-  margin-bottom: 15px;
+  margin-top: 20px;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.87;
 }
 
 .education__specialty {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.67;
@@ -201,7 +201,7 @@ img {
 
 .education__period {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.67;
   color: var(--main-text-color);
 }
