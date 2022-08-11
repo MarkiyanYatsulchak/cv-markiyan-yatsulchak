@@ -1,21 +1,23 @@
 // Variables
 
 :root {
-    --main-bg-color: #f5f7fa;
-    --main-title-color: #000000;
-    --main-text-color: #595959;
-    --secondary-text-color: #ffffff;
-    --accent-color: #ee7444;
-    --bracket-color: #000000;
-    --sidebar-bg-color: #1e2939;
-    --contacts-link-color: #a5a9af;
+  --main-bg-color: #f5f7fa;
+  --main-title-color: #000000;
+  --main-text-color: #595959;
+  --secondary-text-color: #ffffff;
+  --accent-color: #ee7444;
+  --bracket-color: #000000;
+  --sidebar-bg-color: #1e2939;
+  --contacts-link-color: #a5a9af;
 }
 
 // Styles reset
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--main-bg-color);
+  font-family: "Montserrat", sans-serif;
+  background-color: var(
+    --main-bg-color
+  );
 }
 
 h1,
@@ -25,322 +27,363 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    display: block;
+  display: block;
 
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 // Main container styles
 
 .container {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
 
-    width: 1200px;
-    margin: 40px auto;
-    padding: 100px 90px;
+  width: 1200px;
+  margin: 40px auto;
+  padding: 100px 90px;
 
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 20px
+    rgba(0, 0, 0, 0.1);
 }
 
 .content {
-    width: 650px;
-    padding: 100px 60px;
+  width: 650px;
+  padding: 100px 60px;
 }
 
 // About me section styles
 
 .about-me {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .about-me__title {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 1.67;
-    color: var(--main-title-color);
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 1.67;
+  color: var(--main-title-color);
 }
 
 .about-me__subtitle {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.67;
-    color: var(--main-title-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.67;
+  color: var(--main-title-color);
 }
 
 .about-me__text {
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.67;
-    color: var(--main-text-color);
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.67;
+  color: var(--main-text-color);
 }
 
 // About my projects section styles
 
 .my-projects {
-    padding: 30px 0;
+  padding: 30px 0;
 
-    border-top: 1px solid var(--main-text-color);
+  border-top: 1px solid
+    var(--main-text-color);
 }
 
 .my-projects__title {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.87;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.87;
 }
 
 .my-projects__list {
-    padding: 0 0 0 25px;
+  padding: 0 0 0 25px;
 }
 
 .my-projects__item {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 
-    font-weight: bold;
+  font-weight: bold;
 
-    color: var(--main-title-color);
+  color: var(--main-title-color);
 }
 
 .my-projects__text {
-    margin-left: 5px;
+  margin-left: 5px;
 
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.67;
-    color: var(--main-text-color);
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.67;
+  color: var(--main-text-color);
 }
 
 .my-projects__link {
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.67;
-    color: var(--main-text-color);
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.67;
+  color: var(--main-text-color);
 }
 
 .my-projects__link--wrap {
-    font-weight: bold;
-    color: var(--accent-color);
+  font-weight: bold;
+  color: var(--accent-color);
 }
 
 .my-projects__wrap {
-    color: var(--main-text-color);
+  color: var(--main-text-color);
 
-    &::before {
-        content: '[';
-        margin-right: 3px;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 1.67;
-        color: var(--bracket-color);
-    }
+  &::before {
+    content: "[";
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.67;
+    color: var(--bracket-color);
+  }
 
-    &::after {
-        content: ']';
-        margin-left: 3px;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 1.67;
-        color: var(--bracket-color);
-    }
+  &::after {
+    content: "]";
+    margin-left: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.67;
+    color: var(--bracket-color);
+  }
 }
 
 // About my work experience section styles
 
 .work-experience {
-    padding: 30px 0;
+  padding: 30px 0;
 
-    border-top: 1px solid var(--main-text-color);
+  border-top: 1px solid
+    var(--main-text-color);
 }
 
 .work-experience__title {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.87;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.87;
 }
 
 .work-experience__text {
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.67;
-    color: var(--main-text-color);
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.67;
+  color: var(--main-text-color);
 }
 
 // About my education experience section styles
 
 .education {
-    padding: 30px 0;
+  padding: 30px 0;
 
-    border-top: 1px solid var(--main-text-color);
+  border-top: 1px solid
+    var(--main-text-color);
 }
 
 .education__title {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.87;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.87;
 }
 
 .education__institution {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 1.87;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.87;
 }
 
 .education__specialty {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.67;
-    color: var(--accent-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--accent-color);
 }
 
 .education__period {
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.67;
-    color: var(--main-text-color);
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.67;
+  color: var(--main-text-color);
 }
 
 // Sidebar section styles
 
 .sidebar {
-    width: 370px;
-    padding-top: 40px;
-    background-color: var(--sidebar-bg-color);
+  width: 370px;
+  padding-top: 40px;
+  background-color: var(
+    --sidebar-bg-color
+  );
 }
 
 // Contacts section styles
 
 .contacts {
-    margin-top: 50px;
-    margin-left: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 .contacts__title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.67;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.67;
 
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .contacts__type {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.67;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.67;
 
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .contacts__link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.67;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.67;
 
-    color: var(--contacts-link-color);
+  color: var(--contacts-link-color);
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover {
-        color: var(--accent-color);
-    }
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
 // Tech skills section styles
 
 .tech-skills {
-    margin-top: 50px;
-    margin-left: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 .tech-skills__title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.67;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.67;
 
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .tech-skills__list {
-    list-style: disc;
-    color: var(--accent-color);
+  list-style: disc;
+  color: var(--accent-color);
 }
 
 .tech-skills__item {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .tech-skills__text {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.67;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.67;
 
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 // Soft skills section styles
 
 .soft-skills {
-    margin-top: 50px;
-    margin-left: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 .soft-skills__title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.67;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.67;
 
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .soft-skills__list {
-    list-style: disc;
-    color: var(--accent-color);
+  list-style: disc;
+  color: var(--accent-color);
 }
 
 .soft-skills__item {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .soft-skills__text {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.67;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.67;
 
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
+}
+
+// Languages section styles
+
+.languages {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.languages__title {
+  margin-bottom: 10px;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.67;
+
+  color: var(--secondary-text-color);
+}
+
+.Languages__list {
+  list-style: disc;
+  color: var(--accent-color);
+}
+
+.Languages__item {
+  margin-left: 15px;
+}
+
+.Languages__text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.67;
+
+  color: var(--secondary-text-color);
 }
