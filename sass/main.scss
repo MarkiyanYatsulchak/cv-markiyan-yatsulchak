@@ -248,7 +248,7 @@ img {
 // Contacts section styles
 
 .contacts {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
@@ -289,7 +289,7 @@ img {
 // Tech skills section styles
 
 .tech-skills {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
@@ -323,7 +323,7 @@ img {
 // Soft skills section styles
 
 .soft-skills {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
@@ -357,7 +357,7 @@ img {
 // Languages section styles
 
 .languages {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
@@ -386,4 +386,40 @@ img {
   line-height: 1.67;
 
   color: var(--secondary-text-color);
+}
+
+// Links section styles
+
+.social {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.social__title {
+  margin-bottom: 10px;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.67;
+
+  color: var(--secondary-text-color);
+}
+// .social__list {
+//   list-style: disc;
+//   color: var(--accent-color);
+// }
+
+.social__item {
+  margin-left: 15px;
+}
+
+.social__link {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.67;
+
+  color: var(--secondary-text-color);
+}
+.social__link--wrap {
+  font-weight: bold;
+  color: var(--accent-color);
 }
