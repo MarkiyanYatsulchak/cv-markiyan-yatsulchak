@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: var(--main-bg-color);
 }
 
@@ -136,7 +136,7 @@ img {
 }
 
 .my-projects__wrap::before {
-  content: '[';
+  content: "[";
   margin-right: 3px;
   font-weight: bold;
   font-size: 20px;
@@ -145,7 +145,7 @@ img {
 }
 
 .my-projects__wrap::after {
-  content: ']';
+  content: "]";
   margin-left: 3px;
   font-weight: bold;
   font-size: 20px;
@@ -298,6 +298,35 @@ img {
 }
 
 .soft-skills__text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.67;
+  color: var(--secondary-text-color);
+}
+
+.languages {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.languages__title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.67;
+  color: var(--secondary-text-color);
+}
+
+.languages__list {
+  list-style: disc;
+  color: var(--accent-color);
+}
+
+.languages__item {
+  margin-left: 15px;
+}
+
+.languages__text {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.67;
