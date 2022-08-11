@@ -95,7 +95,7 @@ img {
 }
 
 .my-projects__title {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.87;
@@ -106,7 +106,6 @@ img {
 }
 
 .my-projects__item {
-  margin-bottom: 15px;
   font-weight: bold;
   color: var(--main-title-color);
 }
@@ -159,7 +158,7 @@ img {
 }
 
 .work-experience__title {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.87;
