@@ -41,25 +41,18 @@ img {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row-reverse;
+  justify-content: space-around;
   width: 1200px;
   margin: 40px auto;
   padding: 100px 90px;
-  -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .content {
   width: 650px;
-  padding: 100px 60px;
+  padding: 60px 60px;
 }
 
 .about-me {
@@ -133,7 +126,6 @@ img {
 .my-projects__wrap {
   color: var(--main-text-color);
 }
-
 .my-projects__wrap::before {
   content: "[";
   margin-right: 3px;
@@ -142,7 +134,6 @@ img {
   line-height: 1.67;
   color: var(--bracket-color);
 }
-
 .my-projects__wrap::after {
   content: "]";
   margin-left: 3px;
@@ -237,10 +228,8 @@ img {
   font-size: 16px;
   line-height: 1.67;
   color: var(--contacts-link-color);
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .contacts__link:hover {
   color: var(--accent-color);
 }
@@ -347,6 +336,7 @@ img {
 
 .social__item {
   margin-left: 15px;
+  padding-bottom: 10px;
 }
 
 .social__link {
@@ -360,4 +350,7 @@ img {
   font-weight: bold;
   color: var(--accent-color);
 }
-/*# sourceMappingURL=main.css.map */
+
+.social__item p {
+  color: var(--secondary-text-color);
+}/*# sourceMappingURL=main.css.map */

@@ -64,7 +64,7 @@ img {
 
 .content {
   width: 650px;
-  padding: 100px 60px;
+  padding: 60px 60px;
 }
 
 // About me section styles
@@ -410,6 +410,7 @@ img {
 
 .social__item {
   margin-left: 15px;
+  padding-bottom: 10px;
 }
 
 .social__link {
@@ -422,4 +423,8 @@ img {
 .social__link--wrap {
   font-weight: bold;
   color: var(--accent-color);
+}
+
+.social__item p {
+  color: var(--secondary-text-color);
 }
